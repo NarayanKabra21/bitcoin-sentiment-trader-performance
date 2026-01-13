@@ -1,0 +1,54 @@
+# ===============================
+# Python
+# ===============================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# ===============================
+# Jupyter Notebook
+# ===============================
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# ===============================
+# Data files (keep raw data optional)
+# ===============================
+# Ignore large processed/intermediate data
+data/processed/*.csv
+data/processed/*.parquet
+data/processed/*.feather
+
+# Uncomment below if you want to ignore ALL raw data
+# data/raw/*
+
+# ===============================
+# Model artifacts
+# ===============================
+models/
+*.pkl
+*.joblib
+
+# ===============================
+# Logs & outputs
+# ===============================
+logs/
+*.log
+
+# ===============================
+# Visualizations / exports
+# ===============================
+visuals/*.png
+visuals/*.jpg
+visuals/*.svg
+
+# ===============================
+# OS files
+# =============================
